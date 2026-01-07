@@ -1,0 +1,83 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.manifest
+*.spec
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.env/
+.env.*      # Semua environment file
+*.env      # Semua environment file di root maupun subfolder
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.log
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Python Packaging
+# =========================
+pip-wheel-metadata/
+*.egg-info/
+__pypackages__/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+*.out
+*.err
+
+# =========================
+# Supabase / AI / Config Secrets
+# =========================
+supabase.env
+supabase_config.py
+config.py
+settings.py
+GEMINI_API_KEY
+OPENAI_API_KEY
+OPENROUTER_API_KEY
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.swp
+*.tmp

@@ -1,0 +1,23 @@
+# CLI & Utilities
+typer==0.9.0
+rich==14.2.0
+python-dotenv==1.1.1
+
+# OpenAI (lama tapi stabil)
+openai==0.28.0
+
+# Supabase (versi terbaru yang saling cocok)
+supabase==2.27.0
+realtime==2.27.0
+supabase-auth==2.27.0
+supabase-functions==2.27.0
+storage3==2.27.0
+postgrest==2.27.0
+
+# HTTP dependencies
+httpx==0.28.1
+anyio==4.12.1
+certifi==2026.1.4
+httpcore==1.0.9
+idna==3.11
+h11==0.16
